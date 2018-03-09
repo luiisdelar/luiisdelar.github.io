@@ -71,7 +71,7 @@ function aceptar() {
 
 			div = document.createElement('div');
 			div.className = 'form-group';
-			calcular.setAttribute('onclick','calculos('+select+','+input.+')');
+			calcular.setAttribute('onclick','calculos('+select+')');
 			div.appendChild(calcular);
 			capa.appendChild(div);
 			
