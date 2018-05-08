@@ -1,0 +1,70 @@
+.input-group-addon:first-child {
+	color: white;
+	background-color: #4d9bb6;;
+}
+
+#boton {
+	margin-left: 33%;
+	width: 33%;
+	padding: 1%;
+	margin-top: 1%;
+	background-color: white;
+}
+
+
+#efecto input {
+	border: none;
+ 	background: #7b0f0f;
+ 	color: #f2f2f2;
+ 	padding: 4px;
+ 	font-size: 18px;
+ 	border-radius: 5px;
+ 	position: relative;
+ 	box-sizing: border-box;
+ 	transition: all 500ms ease;
+
+}
+
+
+#efecto input:hover {
+ background: white;
+ color: black;
+ box-shadow: inset 0 0 0 3px #7b0f0f;
+
+}
+
+#boton1 {
+	margin-left: 33%;
+	width: 33%;
+	padding: 1%;
+	margin-top: 1%;
+	background-color: white;
+}
+
+
+#efecto1 input {
+	border: none;
+ 	background: #31b710;
+ 	color: #f2f2f2;
+ 	padding: 4px;
+ 	font-size: 18px;
+ 	border-radius: 5px;
+ 	position: relative;
+ 	box-sizing: border-box;
+ 	transition: all 500ms ease;
+
+}
+
+
+#efecto1 input:hover {
+ background: white;
+ color: black;
+ box-shadow: inset 0 0 0 3px #31b710;
+
+}
+
+button:hover {
+ background: white;
+ color: #88BEFB;
+ box-shadow: inset 0 0 0 3px #88BEFB;
+}

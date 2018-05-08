@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Farmacia</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="auxiliar.css">
+	<script type="text/javascript" src="dinamyc.js"></script>
+</head>
+<body>
+	
+
+	
+
+		<h1 class="title text-center">Sistema Farmacia</h1>
+		<div class="container">
+
+		<div class="paciente">	
+
+			<h2 class="text-center">Paciente</h2>
+			<hr>
+			<h3>Datos Personales:</h3>
+		
+			<form method="POST">
+		
+		
+
+			<div class="row">
+			
+				<div class="col-lg-6">
+					<div class="form-group">	
+						<div class="input-group">
+				  			<span class="input-group-addon" id="basic-addon1">Rut:</span>
+				  			<input type="text" class="form-control" placeholder="-rut-" aria-describedby="basic-addon1" name="rut">
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-6">
+					<div class="form-group">	
+						<div class="input-group">
+				  			<span class="input-group-addon" id="basic-addon1">Nombre:</span>
+				  			<input type="text" class="form-control" placeholder="-nombre-" aria-describedby="basic-addon1" name="nombrecliente">
+						</div>
+					</div>
+				</div>
+			
+			</div>
+
+			<div class="row">
+
+				<div class="col-lg-6">	
+					<div class="form-group">
+						<div class="input-group">
+		  					<span class="input-group-addon" id="basic-addon1">Apellido Paterno:</span>
+			  				<input type="text" class="form-control" placeholder="-apellido paterno-" aria-describedby="basic-addon1" name="apellidopaterno">
+						</div>
+					</div>	
+				</div>
+
+				<div class="col-lg-6">	
+					<div class="form-group">
+						<div class="input-group">
+				  			<span class="input-group-addon" id="basic-addon1">Apellido Materno:</span>
+				  			<input type="text" class="form-control" placeholder="-apellido materno-" aria-describedby="basic-addon1" name="apellidomaterno">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+
+				<div class="col-lg-6">	
+					<div class="form-group">
+						<div class="input-group">
+		  					<span class="input-group-addon" id="basic-addon1">Cedula de identidad:   </span>
+			  				<input type="file" class="btn btn-default" accept="image/jpg" placeholder="-cedula-" aria-describedby="basic-addon1" name="">
+						</div>
+					</div>	
+				</div>
+
+				<div class="col-lg-6">	
+					<div class="form-group">
+						<div class="input-group">
+				  			<span class="input-group-addon" id="basic-addon1">Comprobante de domicilio:</span>
+				  			<input type="file" class="btn btn-default" placeholder="-comprobante de domicilio-" aria-describedby="basic-addon1" name="">
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-lg-6">	
+					<div class="form-group">
+						<div class="input-group">
+		  					<span class="input-group-addon" id="basic-addon1">Comprobante de contrato:</span>
+			  				<input type="file" class="btn btn-default" placeholder="" aria-describedby="basic-addon1" name="">
+						</div>
+					</div>	
+				</div>
+
+				<div class="col-lg-6">	
+					<div class="form-group">
+						<div class="input-group">
+				  			<span class="input-group-addon" id="basic-addon1">Fecha de nacimiento:</span>
+				  			<input type="date" class="form-control" placeholder="" aria-describedby="basic-addon1" name="">
+						</div>
+					</div>
+				</div>
+
+				
+			</div>
+
+			<div class="row">
+				<div class="col-lg-6">	
+					<div class="form-group">
+						<div class="input-group">
+				  			<span class="input-group-addon" id="basic-addon1">Sexo:</span>
+				  			<select class="form-control">
+				  				<option>Masculino</option>
+				  				<option>Femenino</option>
+				  			</select>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6">
+					<div class="form-group">	
+						<div class="input-group">
+				  			<span class="input-group-addon" id="basic-addon1">Correo electronico:</span>
+				  			<input type="text" class="form-control" placeholder="-correo-" aria-describedby="basic-addon1" name="correo">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+			
+				<div class="col-lg-6">
+					<div class="form-group">	
+						<div class="input-group">
+				  			<span class="input-group-addon" id="basic-addon1">Nacionalidad:</span>
+				  			<input type="text" class="form-control" placeholder="-nacionalidad-" aria-describedby="basic-addon1" name="nacionalidad">
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-6">
+					<div class="form-group">	
+						<div class="input-group">
+				  			<span class="input-group-addon" id="basic-addon1">Población:</span>
+				  			<input type="text" class="form-control" placeholder="-población-" aria-describedby="basic-addon1" name="poblacion">
+						</div>
+					</div>
+				</div>
+			
+			</div>
+
+			<div class="row">
+			
+				<div class="col-lg-6">
+					<div class="form-group">	
+						<div class="input-group">
+				  			<span class="input-group-addon" id="basic-addon1">Dirección:</span>
+				  			<input type="text" class="form-control" placeholder="-dirección-" aria-describedby="basic-addon1" name="direccion">
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-6">
+					<div class="form-group">	
+						<div class="input-group">
+				  			<span class="input-group-addon" id="basic-addon1">Comuna:</span>
+				  			<input type="text" class="form-control" placeholder="-comuna-" aria-describedby="basic-addon1" name="comuna">
+						</div>
+					</div>
+				</div>
+			
+			</div>
+
+			<div class="row">
+			
+				<div class="col-lg-6">
+					<div class="form-group">	
+						<div class="input-group">
+				  			<span class="input-group-addon" id="basic-addon1">Municipalidad:</span>
+				  			<input type="text" class="form-control" placeholder="-municipalidad-" aria-describedby="basic-addon1" name="municipalidad">
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-6">
+					<div class="form-group">	
+						<div class="input-group">
+				  			<span class="input-group-addon" id="basic-addon1">Referencia:</span>
+				  			<input type="text" class="form-control" placeholder="-referencia-" aria-describedby="basic-addon1" name="referencia">
+						</div>
+					</div>
+				</div>
+			
+			</div>
+
+			<div class="row">
+			
+				<div class="col-lg-6">
+					<div class="form-group">	
+						<div class="input-group">
+				  			<span class="input-group-addon" id="basic-addon1">Telefono de contacto N°1:</span>
+				  			<input type="text" class="form-control" placeholder="-telefono-" aria-describedby="basic-addon1" name="telefono1">
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-6">
+					<div class="form-group">	
+						<div class="input-group">
+				  			<span class="input-group-addon" id="basic-addon1">Telefono de contacto N°2:</span>
+				  			<input type="text" class="form-control" placeholder="-telefono-" aria-describedby="basic-addon1" name="telefono">
+						</div>
+					</div>
+				</div>
+			
+			</div>
+
+			<div class="row">
+			
+				<div class="col-lg-6">
+					<div class="form-group">	
+						<div class="input-group">
+				  			<span class="input-group-addon" id="basic-addon1">Sistema de salud:</span>
+				  			<input type="text" class="form-control" placeholder="-sistema de salud-" aria-describedby="basic-addon1" name="sistemsalud">
+						</div>
+					</div>
+				</div>
+			
+			</div>
+
+		</div>
+
+		<h2 class="text-center">Datos Clínicos</h2>
+		<hr>
+		<h4>Enfermedad:</h4>
+
+		<div class="form-group">	
+				<div class="input-group">
+			  		<span class="input-group-addon" id="basic-addon1">Medicamento prescrito:</span>
+			  		<input type="text" class="form-control" placeholder="-medicamento-" aria-describedby="basic-addon1" name="medicamentoprescrito">
+				</div>
+		</div>
+
+		<div class="form-group">	
+				<div class="input-group">
+		  			<span class="input-group-addon" id="basic-addon1">Medico que prescribe:</span>
+		  			<input type="text" class="form-control" placeholder="-medico que prescribe-" aria-describedby="basic-addon1" name="medicoprescribe">
+				</div>
+		</div>
+
+		<div class="form-group">	
+				<div class="input-group">
+			  		<span class="input-group-addon" id="basic-addon1">Receta Medica:</span>
+			  		<input type="file" class="btn btn-default" placeholder="-receta medica-" aria-describedby="basic-addon1" name="recetamedica">
+				</div>
+		</div>
+
+		<div id="flujo">
+			
+
+		</div>
+		
+		<div id="efecto">	
+			<input type="button" id="boton" onclick="enfermedad()" name="agregarenfermedad" value="Agregar otra enfermedad" class="btn btn-default">
+		</div>
+		
+
+		<h2 class="text-center">Medico</h2>
+		<hr>
+		<div class="row">
+		
+			<div class="col-lg-6">
+				<div class="form-group">	
+					<div class="input-group">
+			  			<span class="input-group-addon" id="basic-addon1">Rut:</span>
+			  			<input type="text" class="form-control" placeholder="-rut medico-" aria-describedby="basic-addon1" name="rutmedico">
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-lg-6">
+				<div class="form-group">	
+					<div class="input-group">
+			  			<span class="input-group-addon" id="basic-addon1">Nombre del medico:</span>
+			  			<input type="text" class="form-control" placeholder="-nombre del medico-" aria-describedby="basic-addon1" name="nombremedico">
+					</div>
+				</div>
+			</div>
+		
+		</div>
+
+		<div class="row">
+		
+			<div class="col-lg-6">
+				<div class="form-group">	
+					<div class="input-group">
+			  			<span class="input-group-addon" id="basic-addon1">Apellido materno:</span>
+			  			<input type="text" class="form-control" placeholder="-apellido paterno-" aria-describedby="basic-addon1" name="apellidopaternomedico">
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-lg-6">
+				<div class="form-group">	
+					<div class="input-group">
+			  			<span class="input-group-addon" id="basic-addon1">Apellido materno:</span>
+			  			<input type="text" class="form-control" placeholder="-apellido materno-" aria-describedby="basic-addon1" name="apellidomaternomedico">
+					</div>
+				</div>
+			</div>
+		
+		</div>
+
+		<div class="row">
+		
+			<div class="col-lg-6">
+				<div class="form-group">	
+					<div class="input-group">
+			  			<span class="input-group-addon" id="basic-addon1">Correo:</span>
+			  			<input type="email" class="form-control" placeholder="-correo electronio-" aria-describedby="basic-addon1" name="correomedico">
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-lg-6">
+				<div class="form-group">	
+					<div class="input-group">
+			  			<span class="input-group-addon" id="basic-addon1">Telefono N°1:</span>
+			  			<input type="text" class="form-control" placeholder="-telefono-" aria-describedby="basic-addon1" name="telefono1medico">
+					</div>
+				</div>
+			</div>
+		
+		</div>
+
+		<div class="row">
+		
+			<div class="col-lg-6">
+				<div class="form-group">	
+					<div class="input-group">
+			  			<span class="input-group-addon" id="basic-addon1">Telefono N°2:</span>
+			  			<input type="text" class="form-control" placeholder="-telefono-" aria-describedby="basic-addon1" name="telefono2medico">
+					</div>
+				</div>
+			</div>
+		
+		</div>
+
+		<h2 class="text-center">Producto</h2>
+		<hr>
+		<div class="row">
+		
+			<div class="col-lg-6">
+				<div class="form-group">	
+					<div class="input-group">
+			  			<span class="input-group-addon" id="basic-addon1">Clase de producto:</span>
+			  			<input type="email" class="form-control" placeholder="-clase de producto-" aria-describedby="basic-addon1" name="claseproducto">
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-lg-6">
+				<div class="form-group">	
+					<div class="input-group">
+			  			<span class="input-group-addon" id="basic-addon1">Laboratorio:</span>
+			  			<input type="text" class="form-control" placeholder="-laboratorio-" aria-describedby="basic-addon1" name="laboratorio">
+					</div>
+				</div>
+			</div>
+		
+		</div>
+
+		<div class="row">
+		
+			<div class="col-lg-6">
+				<div class="form-group">	
+					<div class="input-group">
+			  			<span class="input-group-addon" id="basic-addon1">Principio activo:</span>
+			  			<input type="email" class="form-control" placeholder="-principio activo-" aria-describedby="basic-addon1" name="principioact">
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-lg-6">
+				<div class="form-group">	
+					<div class="input-group">
+			  			<span class="input-group-addon" id="basic-addon1">Codigo:</span>
+			  			<input type="text" class="form-control" placeholder="-codigo-" aria-describedby="basic-addon1" name="codigo">
+					</div>
+				</div>
+			</div>
+		
+		</div>
+
+		<div class="row">
+		
+			<div class="col-lg-6">
+				<div class="form-group">	
+					<div class="input-group">
+			  			<span class="input-group-addon" id="basic-addon1">Nombre comercial:</span>
+			  			<input type="email" class="form-control" placeholder="-nombre comercial-" aria-describedby="basic-addon1" name="nombrecomercial">
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-lg-6">
+				<div class="form-group">	
+					<div class="input-group">
+			  			<span class="input-group-addon" id="basic-addon1">Unidad de medida:</span>
+			  			<input type="text" class="form-control" placeholder="-unidad de medida-" aria-describedby="basic-addon1" name="unidadmedida">
+					</div>
+				</div>
+			</div>
+		
+		</div>
+
+		<div class="row">
+		
+			<div class="col-lg-6">
+				<div class="form-group">	
+					<div class="input-group">
+			  			<span class="input-group-addon" id="basic-addon1">Uso / Tratamiento:</span>
+			  			<input type="email" class="form-control" placeholder="-uso/tratamiento-" aria-describedby="basic-addon1" name="tratamiento">
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-lg-6">
+				<div class="form-group">	
+					<div class="input-group">
+			  			<span class="input-group-addon" id="basic-addon1">Familia:</span>
+			  			<input type="text" class="form-control" placeholder="-familia-" aria-describedby="basic-addon1" name="familia">
+					</div>
+				</div>
+			</div>
+		
+		</div>
+
+			<br><br><br><br>
+			<div id="efecto1">
+				<input type="submit" id="boton1" onclick="prueba()" name="registrar" value="Registrar Venta" class="btn btn-success">
+			</div>	
+			<br><br><br><br>
+	
+		
+		</form>
+	<!-- container-->	
+	</div>	
+
+</body>
+</html>
