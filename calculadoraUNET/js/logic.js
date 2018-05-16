@@ -86,13 +86,6 @@ function aceptar() {
 
 function calculos(parciales) {
 	
-	/*
-	*	Tomar los valores de los input de notas y validar que 100>=notas>0.
-	*	Los valores de los porcentajes sumados debe ser =100.
-	*	Si los valores son incorrectos no volver a inicio sino poner el los inputs
-		los valores incorrectos (en rojo si es posible)
-	*	Si todo bien, hacer calculos.
-	*/
 	var contNotas = 0, porcentajes = 0, notaFinal = 0;
 
 	for (var i = 0; i < parciales; i++) {
@@ -100,7 +93,7 @@ function calculos(parciales) {
 		contNotas = parseInt(document.getElementById('nota'+(i+1)).value);
 		porcentajes += parseInt(document.getElementById('porc'+(i+1)).value);
 
-		if (contNotas > 100 || contNotas < 1) {
+		if (contNotas > 100 || contNotas < 0) {
 			alert("Error en notas");
 			aceptar();
 		}
@@ -124,8 +117,9 @@ function calculos(parciales) {
 
 function convert(i){
     var retorno=0.0;
-         
-    if(i<7 || i==7){ retorno=1.0; }
+    
+    if(i==0){ retorno=0; }     
+    if(i!=0 && i<8){ retorno=1.0; }
     if(i==8){ retorno=1.1; }
     if(i==9){ retorno=1.2; }
     if(i==10){ retorno=1.3; }
